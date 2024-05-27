@@ -1,4 +1,6 @@
-﻿namespace Challenge;
+﻿using System;
+
+namespace Challenge;
 
 class Program
 {
@@ -12,7 +14,7 @@ class Program
 
     static void Main(string[] _)
     {
-        string input = "";
+        string input = "Socorram-me, subi no ônibus em Marrocos!";
 
         bool isPalindrome = IsPalindrome(input);
 
